@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="ancho">
+    
+
+        <figure class="logo">
+        <img src="img/pullrequest-logo.svg">
+        </figure>
+    
+</header>
+
+<div class="ancho">
+    <a href="#" id="iconomenu">
+        <i class="fa-solid fa-bars"></i>
+    </a>
+</div>
+
+    
+    <nav class="ancho">
+
+        <ul style="list-style-type: none">
+            <li><b><a href="#">Inicio</a></b></li>
+            <li><b><a href="#">Empresas</a></b></li>
+            <li><b><a href="#">Servicios</a></b></li>
+            <li><b><a href="#">Clientes</a></b></li>
+            <li><b><a href="#">Ubicación</a></b></li>
+            <li><b><a href="#">Contactos</a></b></li>
+        </ul>
+
+    </nav>
+
+
+
+    <section class="ancho">
+        <article>
+        <a href="" id="btn-mostrar"> @aaron chi</a>
+        </article>
+
+        <figure class="foto" id="fotito">
+          <img src="img/caca.jpg">
+        </figure>
+
+    </section>
+
+    <footer class="ancho">
+      <a href=""> @aaron chi</a>
+    </footer>
+
+     
+
+    <!--  FUNCIONES DE JAVASCRIPT-->
+
+   <script>
+    $("#iconomenu").click(function() {
+        //con slideToggle se abre y cierra el menu, al dar click obviamente
+        $("#cajamenu").slideToggle();
+    });
+
+    $("#btn_mostrar").click(function() {
+
+        $("#fotito").slideToggle();
+    });
+   </script>
+  
+
+
+
+</body>
+</html>
